@@ -15,13 +15,11 @@ import { addNewTask, updateTask } from './communicate-db';
 let port = process.env.PORT || 7777;
 let app = express();
 
+app.use(cors());
+app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.json());
 
 
-app.use(
-    cors(),
-    bodyParser.urlencoded({extended:true}),
-    bodyParser.json()
-);
 app.listen(port,console.info("Server running, listening on port ", port));
 
 authenticationRoute(app);

@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="29b52cc7-f591-431e-9640-0a355062a780" name="Default Changelist" comment="create components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/defaultState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/defaultState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/initialize-db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/initialize-db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/TaskList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/sagas.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/sagas.mock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/server.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.spec.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       <updated>1585685805156</updated>
       <workItem from="1585685806511" duration="1338000" />
       <workItem from="1585770819348" duration="326000" />
-      <workItem from="1585806501336" duration="11759000" />
+      <workItem from="1585806501336" duration="12731000" />
     </task>
     <servers />
   </component>
