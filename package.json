@@ -9,7 +9,8 @@
     "dev": "webpack-dev-server --open",
     "initialize": "babel-node src/server/initialize-db.js",
     "server": "babel-node src/server/server.js",
-    "server-test": "babel-node src/server/server.spec.js"
+    "server-test": "babel-node src/server/server.spec.js",
+    "start-dev": "concurrently \"npm run server\" \"npm run dev\""
   },
   "keywords": [],
   "author": "",
@@ -30,10 +31,14 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
     "history": "^4.10.1",
+    "md5": "^2.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
+    "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
